@@ -1,0 +1,41 @@
+body{
+   background-image: url("../images/qbkls.png");
+}
+
+header{
+    background-color: #ffffff;
+    width: 100vw;
+    font-family: 'Georgia','Times New Roman', Times, serif serif;
+    height: 100px;
+    position: fixed;
+    top:0;
+}
+
+#name-box{
+    background-color: #4aaaa5;
+    height: 75px;
+    width: 200px;
+    color: #ffffff;
+    top: 0;
+    left: 40px;
+}
+
+.index-container{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #ffffff;
+    width: 960px;
+    height: 760px;
+}
+
+.gray-line{
+
+}
+
+footer{
+    background-color: #666666;
+    color: #777777;
+}
