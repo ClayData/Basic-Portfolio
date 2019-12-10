@@ -6,18 +6,21 @@ header{
     background-color: #ffffff;
     width: 100vw;
     font-family: 'Georgia','Times New Roman', Times, serif serif;
-    height: 100px;
+    height: 85px;
     position: fixed;
     top:0;
 }
 
 #name-box{
     background-color: #4aaaa5;
-    height: 75px;
+    height: 85px;
     width: 200px;
     color: #ffffff;
     top: 0;
-    left: 40px;
+    left: 200px;
+    float: left;
+    position: absolute;
+    text-align: center;
 }
 
 .index-container{
@@ -28,7 +31,9 @@ header{
     text-align: center;
     background-color: #ffffff;
     width: 960px;
-    height: 760px;
+    height: 560px;
+    margin-bottom: 150px;
+    margin-top: 120px;
 }
 
 .gray-line{
@@ -38,4 +43,28 @@ header{
 footer{
     background-color: #666666;
     color: #777777;
+    border-top: 8px solid #4aaaa5;
+    text-align: center;
+}
+
+.list-box{
+    top: 0;
+    height: 85;
+    width: 250px;
+    right: 100px;
+    position: absolute;
+}
+
+.horizontal-list{
+    text-align: center;
+    padding: 13px;
+}
+
+.horizontal-list li{
+    display: inline;
+}
+
+#about-me{
+    color: #4aaaa5;
+    font-family: 'Georgia','Times New Roman', Times, serif serif;
 }
