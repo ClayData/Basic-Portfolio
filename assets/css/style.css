@@ -9,9 +9,10 @@ header{
     height: 85px;
     position: fixed;
     top:0;
+    border-bottom: 2px gray solid;
 }
 
-#name-box{
+.name-box{
     background-color: #4aaaa5;
     height: 85px;
     width: 200px;
@@ -32,8 +33,9 @@ header{
     background-color: #ffffff;
     width: 960px;
     height: 560px;
-    margin-bottom: 150px;
-    margin-top: 120px;
+    margin-bottom: 130px;
+    margin-top: 140px;
+    border: 1px gray solid;
 }
 
 .gray-line{
@@ -42,9 +44,10 @@ header{
 
 footer{
     background-color: #666666;
-    color: #777777;
+    color: #ffffff;
     border-top: 8px solid #4aaaa5;
     text-align: center;
+    height: 60px;
 }
 
 .list-box{
@@ -58,13 +61,27 @@ footer{
 .horizontal-list{
     text-align: center;
     padding: 13px;
+    color: #777777;
 }
 
 .horizontal-list li{
     display: inline;
 }
 
-#about-me{
+.about-me{
     color: #4aaaa5;
     font-family: 'Georgia','Times New Roman', Times, serif serif;
+}
+
+a:link, a:visited{
+    color: #777777;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+h2 {
+    position: relative;
+    right: 315px;
+    font-family: 'Georgia','Times New Roman', Times, serif;
+    font-size: 30px;
 }
