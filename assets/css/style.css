@@ -15,7 +15,7 @@ header{
 .name-box{
     background-color: #4aaaa5;
     height: 85px;
-    width: 200px;
+    width: 220px;
     color: #ffffff;
     top: 0;
     left: 200px;
@@ -39,7 +39,12 @@ header{
 }
 
 .gray-line{
-
+    height: 2px;
+    width: 900px;
+    background-color: #777777;
+    position: relative;
+    left: 30px;
+    opacity: 25%;
 }
 
 footer{
@@ -86,7 +91,25 @@ h2 {
     font-size: 30px;
 }
 
-.paragraph{
-    line-height: 2;
-    padding: 5px;
+.index-photo{
+    float: left;
+    padding-left: 25px;
+    padding-top: 50px;
 }
+
+.paragraph1{
+    line-height: 2;
+    width: 430px;
+    float: left;
+    position: relative;
+    left: 50px;
+}
+
+.paragraph2{
+    line-height: 2;
+    float: left;
+    width: 900px;
+    position: relative;
+    left: 30px;
+}
+
