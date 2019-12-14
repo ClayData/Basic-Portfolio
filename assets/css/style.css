@@ -113,4 +113,37 @@ h2 {
     left: 30px;
 }
 
+form{ 
+    float: left;
+    text-align: left;
+    position: relative;
+    left: 20px;
+}
 
+.name{
+    width: 90%;
+}
+
+.email{
+    width: 90%;
+}
+
+.message{
+    position: relative;
+    
+}
+
+.contact-title{
+    color: #4aaaa5;
+}
+
+.submit-button{
+    position: relative;
+    background-color: #4aaaa5;
+    color: #ffffff;
+}
+
+.text-box{
+    position: relative;
+    
+}
