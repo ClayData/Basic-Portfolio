@@ -122,10 +122,12 @@ form{
 
 .name{
     width: 90%;
+    height: 20px;
 }
 
 .email{
     width: 90%;
+    height: 20px;
 }
 
 .message{
@@ -141,9 +143,80 @@ form{
     position: relative;
     background-color: #4aaaa5;
     color: #ffffff;
+    height: 45px;
+    width: 90px;
+    font-size: 18px;
 }
 
 .text-box{
     position: relative;
     
+}
+
+.portfolio{
+    color: #4aaaa5;
+}
+
+.pic-4container{
+    position: relative;
+    right: 250px;
+    top: 10px;
+}
+
+.text4{
+    position: absolute;
+    background-color: #4aaaa5;
+    color:white;
+    width: 391px;
+    height: 40px;
+    left: 289px;
+    top: 120px;
+}
+
+.pic-5container{
+    position: relative;
+    left: 250px;
+    bottom: 195px;
+}
+
+.text5{
+    position: absolute;
+    background-color: #4aaaa5;
+    color:white;
+    width: 400px;
+    height: 40px;
+    left: 280px;
+    top: 120px
+}
+
+.pic-6container{
+    position: relative;
+    right: 250px;
+    bottom: 150px;
+}
+
+.text6{
+    position: absolute;
+    background-color: #4aaaa5;
+    color:white;
+    width: 400px;
+    height: 40px;
+    left: 280px;
+    bottom: 50px;
+}
+
+.pic-7container{
+    position: relative;
+    left: 250px;
+    bottom: 355px;
+}
+
+.text7{
+    position: absolute;
+    background-color: #4aaaa5;
+    color:white;
+    width: 391px;
+    height: 40px;
+    left: 280px;
+    bottom: 50px;
 }
