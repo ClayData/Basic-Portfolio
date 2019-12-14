@@ -171,6 +171,7 @@ form{
     height: 40px;
     left: 289px;
     top: 120px;
+    font-size: 18px;
 }
 
 .pic-5container{
@@ -186,7 +187,8 @@ form{
     width: 400px;
     height: 40px;
     left: 280px;
-    top: 120px
+    top: 120px;
+    font-size: 18px;
 }
 
 .pic-6container{
@@ -203,6 +205,7 @@ form{
     height: 40px;
     left: 280px;
     bottom: 50px;
+    font-size: 20px;
 }
 
 .pic-7container{
@@ -219,4 +222,5 @@ form{
     height: 40px;
     left: 280px;
     bottom: 50px;
+    font-size: 20px;
 }
